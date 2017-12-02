@@ -1,0 +1,34 @@
+{% extends 'olymega/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!--head-bottom-->
+<div class="head-bottom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="{% url 'olymega:index' %}">Home</a></li>
+            <li><a href="{% url 'olymega:news' %}">News</a></li>
+            <li><a href="{% url 'olymega:events' %}">Events</a></li>
+            <li><a href="{% url 'olymega:join' %}">Join</a></li>
+            <li><a href="{% url 'olymega:contact' %}">contact</a></li>
+            <li class="active"><a href="{% url 'olymega:bylaws' %}">bylaws</a></li>
+			      <li><a href="{% url 'olymega:donate' %}">Donate</a></li>
+			      <li><a href="{% url 'olymega:forum' %}">Forum</a></li>
+            <li><a href="{% url 'olymega:projects' %}">Projects</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+</div>
+
+{% endblock %}

@@ -1,0 +1,9 @@
+Django==1.11.3
+django-bootstrap3==9.1.0
+django-polls==0.1
+gyp==0.1
+pycrypto==2.6.1
+pytz==2017.2
+sqlparse==0.1.18
+vboxapi==1.0
+virtualenv==15.0.1
